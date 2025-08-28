@@ -1,1 +1,2 @@
 # High-Resolution-Timer
+* **Day 2: High-Resolution Timer.** Build a utility class to measure code execution time with nanosecond precision using `std::chrono::high_resolution_clock`. You'll use this every single day to benchmark your code.
