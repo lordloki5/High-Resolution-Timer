@@ -18,8 +18,11 @@ class Timer{
         }
 };
 
+void measureTimerOverhead() {
+    Timer timer("Timer Overhead");
+    
+}
+
 int main() {
-    Timer timer;
-    std::cout << "Hello, World!" << std::endl;
-    return 0; 
+    measureTimerOverhead(); //Timer Overhead Recorded: 1000 ns
 }
